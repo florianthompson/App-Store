@@ -8,20 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		1768BF792222D6C800101F54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1768BF782222D6C800101F54 /* AppDelegate.swift */; };
-		1768BF7B2222D6C800101F54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1768BF7A2222D6C800101F54 /* ViewController.swift */; };
 		1768BF7E2222D6C800101F54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1768BF7C2222D6C800101F54 /* Main.storyboard */; };
 		1768BF802222D6CA00101F54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1768BF7F2222D6CA00101F54 /* Assets.xcassets */; };
 		1768BF832222D6CA00101F54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1768BF812222D6CA00101F54 /* LaunchScreen.storyboard */; };
+		1768BF8B2222D74A00101F54 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1768BF8A2222D74A00101F54 /* BaseTabBarController.swift */; };
+		1768BF8D2222DE7E00101F54 /* AppsSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1768BF8C2222DE7E00101F54 /* AppsSearchController.swift */; };
+		1768BF902222E10200101F54 /* SearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1768BF8F2222E10200101F54 /* SearchResultCell.swift */; };
+		1768BF932222E61B00101F54 /* CGFloat+Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1768BF922222E61B00101F54 /* CGFloat+Constants.swift */; };
+		1768BF962222E8DE00101F54 /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1768BF952222E8DE00101F54 /* UIView+Layout.swift */; };
+		1768BF982222E9D900101F54 /* UIEdgeInsets+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1768BF972222E9D900101F54 /* UIEdgeInsets+Extensions.swift */; };
+		1768BF9A2222EE2E00101F54 /* VerticalStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1768BF992222EE2E00101F54 /* VerticalStackView.swift */; };
+		1768BF9C2222F23900101F54 /* UIStackView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1768BF9B2222F23900101F54 /* UIStackView+Extensions.swift */; };
+		1768BF9E2222F57C00101F54 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1768BF9D2222F57C00101F54 /* UILabel+Extension.swift */; };
+		1768BFA12223444200101F54 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1768BFA02223444200101F54 /* SearchResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1768BF752222D6C800101F54 /* AppStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1768BF782222D6C800101F54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1768BF7A2222D6C800101F54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1768BF7D2222D6C800101F54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1768BF7F2222D6CA00101F54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1768BF822222D6CA00101F54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1768BF842222D6CA00101F54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1768BF8A2222D74A00101F54 /* BaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
+		1768BF8C2222DE7E00101F54 /* AppsSearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsSearchController.swift; sourceTree = "<group>"; };
+		1768BF8F2222E10200101F54 /* SearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultCell.swift; sourceTree = "<group>"; };
+		1768BF922222E61B00101F54 /* CGFloat+Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Constants.swift"; sourceTree = "<group>"; };
+		1768BF952222E8DE00101F54 /* UIView+Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Layout.swift"; sourceTree = "<group>"; };
+		1768BF972222E9D900101F54 /* UIEdgeInsets+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIEdgeInsets+Extensions.swift"; sourceTree = "<group>"; };
+		1768BF992222EE2E00101F54 /* VerticalStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalStackView.swift; sourceTree = "<group>"; };
+		1768BF9B2222F23900101F54 /* UIStackView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extensions.swift"; sourceTree = "<group>"; };
+		1768BF9D2222F57C00101F54 /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		1768BFA02223444200101F54 /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +72,55 @@
 		1768BF772222D6C800101F54 /* AppStore */ = {
 			isa = PBXGroup;
 			children = (
+				1768BF9F2223443700101F54 /* Model */,
+				1768BF942222E65200101F54 /* Controllers */,
+				1768BF912222E60800101F54 /* Helpers */,
+				1768BF8E2222E0E500101F54 /* Views */,
 				1768BF782222D6C800101F54 /* AppDelegate.swift */,
-				1768BF7A2222D6C800101F54 /* ViewController.swift */,
 				1768BF7C2222D6C800101F54 /* Main.storyboard */,
 				1768BF7F2222D6CA00101F54 /* Assets.xcassets */,
 				1768BF812222D6CA00101F54 /* LaunchScreen.storyboard */,
 				1768BF842222D6CA00101F54 /* Info.plist */,
 			);
 			path = AppStore;
+			sourceTree = "<group>";
+		};
+		1768BF8E2222E0E500101F54 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1768BF8F2222E10200101F54 /* SearchResultCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1768BF912222E60800101F54 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				1768BF922222E61B00101F54 /* CGFloat+Constants.swift */,
+				1768BF952222E8DE00101F54 /* UIView+Layout.swift */,
+				1768BF972222E9D900101F54 /* UIEdgeInsets+Extensions.swift */,
+				1768BF992222EE2E00101F54 /* VerticalStackView.swift */,
+				1768BF9B2222F23900101F54 /* UIStackView+Extensions.swift */,
+				1768BF9D2222F57C00101F54 /* UILabel+Extension.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		1768BF942222E65200101F54 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1768BF8A2222D74A00101F54 /* BaseTabBarController.swift */,
+				1768BF8C2222DE7E00101F54 /* AppsSearchController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1768BF9F2223443700101F54 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1768BFA02223444200101F54 /* SearchResult.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +194,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1768BF7B2222D6C800101F54 /* ViewController.swift in Sources */,
+				1768BFA12223444200101F54 /* SearchResult.swift in Sources */,
+				1768BF9C2222F23900101F54 /* UIStackView+Extensions.swift in Sources */,
+				1768BF932222E61B00101F54 /* CGFloat+Constants.swift in Sources */,
+				1768BF9E2222F57C00101F54 /* UILabel+Extension.swift in Sources */,
 				1768BF792222D6C800101F54 /* AppDelegate.swift in Sources */,
+				1768BF982222E9D900101F54 /* UIEdgeInsets+Extensions.swift in Sources */,
+				1768BF962222E8DE00101F54 /* UIView+Layout.swift in Sources */,
+				1768BF8B2222D74A00101F54 /* BaseTabBarController.swift in Sources */,
+				1768BF9A2222EE2E00101F54 /* VerticalStackView.swift in Sources */,
+				1768BF8D2222DE7E00101F54 /* AppsSearchController.swift in Sources */,
+				1768BF902222E10200101F54 /* SearchResultCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
